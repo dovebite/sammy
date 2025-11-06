@@ -1,0 +1,32 @@
+{
+	"format_version": "1.19.0",
+	"animation_controllers": {
+		"controller.animation.sammy.move": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+					{ "walk": "query.modified_move_speed"}
+					],
+					"transitions": [
+						{"idle": "!query.ground_speed"}
+					],
+					"blend_transition": 0.2
+				},
+				"idle": {
+					"animations": ["idle"],
+					"transitions": [
+						{"default": "query.ground_speed"}
+					],
+					"blend_transition": 0.2
+				},
+				"angry": {
+					"animations": ["airplane"],
+					"transitions": [
+						{"default": "!query.is_angry"}
+					]
+				}
+			}
+		}
+	}
+}

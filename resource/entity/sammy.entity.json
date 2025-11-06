@@ -1,0 +1,36 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "dove:sammy",
+			"materials": {
+				"default": "cat"
+			},
+			"textures": {
+				"default": "textures/entity/sammy"
+			},
+			"geometry": {
+				"default": "geometry.sammy"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"spawn_egg": {
+				"texture": "spawn_egg_cat"
+			},
+			"animations": {
+				"controller.sammy": "controller.animation.sammy.move",
+				"walk": "animation.sammy.walk",
+				"idle": "animation.sammy.idle",
+				"angry": "animation.sammy.airplane",
+				"sprint": "animation.sammy.sprint",
+				"sneak": "animation.sammy.sneak",
+				"loaf": "animation.sammy.loaf",
+				"stretch": "animation.sammy.stretch"
+			},
+			"scripts": {
+				"animate": ["controller.sammy"]
+			}
+		}
+	}
+}
