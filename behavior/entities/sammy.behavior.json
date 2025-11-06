@@ -43,8 +43,8 @@
 					"require_full_health": true,
 					"allow_sitting": true,
 					"breeds_with": {
-						"mate_type": "dove:sammy",
-						"baby_type": "dove:sammy",
+						"mate_type": "cat",
+						"baby_type": "cat",
 						"breed_event": {
 							"event": "minecraft:entity_born",
 							"target": "baby"
@@ -53,10 +53,13 @@
 					"breed_items": ["fish", "salmon"]
 				}
 			},
-			"minecraft:cat_wild": {
+			"minecraft:sammy_wild": {
 				"minecraft:health": {
 					"value": 10,
 					"max": 10
+				},
+				"minecraft:color": {
+					"value": 14
 				},
 				"minecraft:tameable": {
 					"probability": 0.33,
@@ -132,14 +135,13 @@
 					"priority": 7
 				}
 			},
-			"minecraft:cat_tame": {
+			"minecraft:sammy_tame": {
 				"minecraft:is_tamed": {},
 				"minecraft:health": {
 					"value": 20,
 					"max": 20
 				},
 				"minecraft:color": {
-					"value": 14
 				},
 				"minecraft:sittable": {},
 				"minecraft:behavior.tempt": {
@@ -275,9 +277,11 @@
 			"minecraft:attack_damage": {
 				"value": 4
 			},
-			"minecraft:nameable": {},
+			"minecraft:nameable": {
+				"allow_name_tag_renaming": false
+			},
 			"minecraft:type_family": {
-				"family": ["cat", "mob"]
+				"family": ["sammy", "cat", "mob"]
 			},
 			"minecraft:breathable": {
 				"total_supply": 15,
@@ -299,20 +303,7 @@
 					}
 				]
 			},
-			"minecraft:hurt_on_condition": {
-				"damage_conditions": [
-					{
-						"filters": {
-							"test": "in_lava",
-							"subject": "self",
-							"operator": "==",
-							"value": true
-						},
-						"cause": "lava",
-						"damage_per_tick": 4
-					}
-				]
-			},
+			"minecraft:hurt_on_condition": {},
 			"minecraft:movement": {
 				"value": 0.3
 			},
@@ -327,7 +318,7 @@
 			"minecraft:damage_sensor": {
 				"triggers": {
 					"cause": "fall",
-					"deals_damage": false
+					"deals_damage": "no"
 				}
 			},
 			"minecraft:dweller": {
@@ -406,164 +397,8 @@
 								}
 							}
 						]
-					},
-					{
-						"randomize": [
-							{
-								"weight": 15,
-								"add": {
-									"component_groups": ["minecraft:sammy_white"]
-								}
-							},
-							{
-								"weight": 15,
-								"add": {
-									"component_groups": ["minecraft:sammy_tuxedo"]
-								}
-							},
-							{
-								"weight": 15,
-								"add": {
-									"component_groups": ["minecraft:sammy_red"]
-								}
-							},
-							{
-								"weight": 15,
-								"add": {
-									"component_groups": ["minecraft:sammy_siamese"]
-								}
-							},
-							{
-								"weight": 15,
-								"add": {
-									"component_groups": ["minecraft:sammy_british"]
-								}
-							},
-							{
-								"weight": 15,
-								"add": {
-									"component_groups": ["minecraft:sammy_calico"]
-								}
-							},
-							{
-								"weight": 15,
-								"add": {
-									"component_groups": ["minecraft:sammy_persian"]
-								}
-							},
-							{
-								"weight": 15,
-								"add": {
-									"component_groups": ["minecraft:sammy_ragdoll"]
-								}
-							},
-							{
-								"weight": 15,
-								"add": {
-									"component_groups": ["minecraft:sammy_tabby"]
-								}
-							},
-							{
-								"weight": 15,
-								"add": {
-									"component_groups": ["minecraft:sammy_black"]
-								}
-							},
-							{
-								"weight": 15,
-								"add": {
-									"component_groups": ["minecraft:sammy_jellie"]
-								}
-							}
-						]
-					}
-				]
-			},
-			"minecraft:spawn_from_village": {
-				"sequence": [
-					{
-						"randomize": [
-							{
-								"weight": 3,
-								"remove": {},
-								"add": {
-									"component_groups": ["minecraft:sammy_adult", "minecraft:sammy_wild"]
-								}
-							},
-							{
-								"weight": 1,
-								"remove": {},
-								"add": {
-									"component_groups": ["minecraft:sammy_baby", "minecraft:sammy_wild"]
-								}
-							}
-						]
-					},
-					{
-						"randomize": [
-							{
-								"weight": 15,
-								"add": {
-									"component_groups": ["minecraft:sammy_tuxedo"]
-								}
-							},
-							{
-								"weight": 15,
-								"add": {
-									"component_groups": ["minecraft:sammy_red"]
-								}
-							},
-							{
-								"weight": 15,
-								"add": {
-									"component_groups": ["minecraft:sammy_siamese"]
-								}
-							},
-							{
-								"weight": 15,
-								"add": {
-									"component_groups": ["minecraft:sammy_white"]
-								}
-							},
-							{
-								"weight": 15,
-								"add": {
-									"component_groups": ["minecraft:sammy_british"]
-								}
-							},
-							{
-								"weight": 15,
-								"add": {
-									"component_groups": ["minecraft:sammy_calico"]
-								}
-							},
-							{
-								"weight": 15,
-								"add": {
-									"component_groups": ["minecraft:sammy_persian"]
-								}
-							},
-							{
-								"weight": 15,
-								"add": {
-									"component_groups": ["minecraft:sammy_ragdoll"]
-								}
-							},
-							{
-								"weight": 15,
-								"add": {
-									"component_groups": ["minecraft:sammy_tabby"]
-								}
-							},
-							{
-								"weight": 15,
-								"add": {
-									"component_groups": ["minecraft:sammy_jellie"]
-								}
-							}
-						]
-					}
-				]
+					}					
+								]
 			},
 			"minecraft:spawn_midnight_sammy": {
 				"sequence": [
