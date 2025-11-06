@@ -1,0 +1,109 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:rabbit_hide",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:rabbit_foot",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:chicken",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:feather",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:rotten_flesh",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:string",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:phantom_membrane",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:cookie",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:salmon",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:gold_nugget",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:white_wool",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bone",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:sunflower",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:glow_ink_sac",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:ink_sac",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:snowball",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:sea_pickle",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:glowstone_dust",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:leather",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:music_disc_cat",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

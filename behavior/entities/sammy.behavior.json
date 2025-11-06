@@ -140,7 +140,7 @@
 				"minecraft:health": {
 					"value": 20,
 					"max": 20
-				},
+				}, 
 				"minecraft:color": {
 				},
 				"minecraft:sittable": {},
@@ -170,6 +170,13 @@
 				"minecraft:behavior.ocelot_sit_on_block": {
 					"priority": 7,
 					"speed_multiplier": 1
+				},
+				"minecraft:behavior.pickup_items": {
+					"priority": 2,
+					"max_dist": 3,
+					"goal_radius": 2,
+					"speed_multiplier": 0.5,
+					"can_pickup_any_item": true
 				},
 				"minecraft:behavior.pet_sleep_with_owner": {
 					"priority": 2,
@@ -210,7 +217,7 @@
 							"max_dist": 6
 						}
 					],
-					"loot_table": "loot_tables/entities/cat_gift.json",
+					"loot_table": "loot_tables/sammy_gift.json",
 					"on_drop_attempt": {
 						"event": "minecraft:cat_gifted_owner",
 						"target": "self"
@@ -275,7 +282,7 @@
 		},
 		"components": {
 			"minecraft:attack_damage": {
-				"value": 4
+				"value": 1
 			},
 			"minecraft:nameable": {
 				"allow_name_tag_renaming": false
@@ -317,7 +324,7 @@
 			"minecraft:can_climb": {},
 			"minecraft:damage_sensor": {
 				"triggers": {
-					"cause": "fall",
+					"cause": "all",
 					"deals_damage": "no"
 				}
 			},
@@ -369,6 +376,9 @@
 			},
 			"minecraft:behavior.look_at_player": {
 				"priority": 9
+			},
+			"minecraft:behavior.owner_hurt_by_target": {
+				"priority": 1
 			},
 			"minecraft:physics": {},
 			"minecraft:pushable": {
