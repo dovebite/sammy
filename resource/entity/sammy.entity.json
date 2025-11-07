@@ -22,14 +22,23 @@
 				"controller.sammy": "controller.animation.sammy.move",
 				"walk": "animation.sammy.walk",
 				"idle": "animation.sammy.idle",
-				"angry": "animation.sammy.airplane",
+				"airplane": "animation.sammy.airplane",
 				"sprint": "animation.sammy.sprint",
 				"sneak": "animation.sammy.sneak",
 				"loaf": "animation.sammy.loaf",
-				"stretch": "animation.sammy.stretch"
+				"sit": "animation.sammy.sit",
+				"lie_down": "animation.sammy.lie_down",
+				"stretch": "animation.sammy.stretch",
+				"belly": "animation.sammy.belly",
+				"uppies": "animation.sammy.uppies",
+				"hiss": "animation.sammy.hiss",
+				"knead": "animation.sammy.knead"
 			},
 			"scripts": {
 				"animate": ["controller.sammy"]
+			},
+			"particle_effects": {
+				"hearts": "minecraft:heart_particle"
 			}
 		}
 	}

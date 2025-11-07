@@ -9,24 +9,39 @@
 					{ "walk": "query.modified_move_speed"}
 					],
 					"transitions": [
-						{"idle": "!query.ground_speed"}
+						{"idle": "!query.ground_speed"},
+						{"airplane": "query.is_in_contact_with_water"},
+						{"loaf": "query.is_laying_down"}
 					],
 					"blend_transition": 0.2
 				},
 				"idle": {
 					"animations": ["idle"],
 					"transitions": [
-						{"default": "query.ground_speed"}
+						{"default": "query.ground_speed"},
+						{"airplane": "query.is_in_contact_with_water"},
+						{"loaf": "query.is_laying_down"}
+					],
+					"blend_transition": 0.1
+				},
+				"loaf": {
+					"animations": ["loaf"],
+					"transitions": [
+						{"default": "!query.is_laying_down"}
 					],
 					"blend_transition": 0.2
 				},
-				"angry": {
-					"animations": ["airplane"],
+				"airplane": {
+					"animations": [
+						{ "airplane": "query.is_in_contact_with_water" },
+						{ "walk": "query.modified_move_speed" }
+					],
 					"transitions": [
-						{"default": "!query.is_angry"}
-					]
+						{"default": "!query.is_in_contact_with_water"}
+					],
+					"blend_transition": 0.2
 				}
 			}
 		}
-	}
+	} 
 }
