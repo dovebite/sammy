@@ -232,7 +232,7 @@
 			},
 			"dove:sammy_items": {
 				"minecraft:equipment": {
-				"table": "loot_tables/entities/fox_equipment.json",
+				"table": "loot_tables/sammy_gift.json",
 				"slot_drop_chance": [
 					{
 					"slot": "slot.weapon.mainhand",
@@ -347,11 +347,8 @@
 				"is_pushable": true,
 				"is_pushable_by_piston": true
 			},
-			"minecraft:inventory": {
-				"inventory_size": 1
-			},
 			"minecraft:behavior.equip_item": {
-				"priority": 2
+				"priority": 0
 			},
 			"minecraft:equip_item": {
 			},
@@ -369,7 +366,8 @@
 					"max_dist": 3,
 					"goal_radius": 2,
 					"speed_multiplier": 0.5,
-					"can_pickup_any_item": true
+					"can_pickup_any_item": true,
+					"can_pickup_to_hand_or_equipment": true
 			},
 			"minecraft:conditional_bandwidth_optimization": {}
 		},

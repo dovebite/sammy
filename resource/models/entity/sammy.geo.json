@@ -38,6 +38,14 @@
 					}
 				},
 				{
+					"name": "rightitem",
+					"parent": "head",
+					"pivot": [-1, 8, -8.5],
+					"locators": {
+						"rightitem": [-1, 8, -8.5]
+					}
+				},
+				{
 					"name": "eyeL",
 					"parent": "head",
 					"pivot": [-1.5, 10.5, -12],
