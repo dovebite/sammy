@@ -255,7 +255,7 @@
 			},
 			"dove:sammy_items": {
 				"minecraft:equipment": {
-				"table": "loot_tables/sammy_gift.json",
+				"table": "loot_tables/sammy_spawn_gift.json",
 				"slot_drop_chance": [
 					{
 					"slot": "slot.weapon.mainhand",
