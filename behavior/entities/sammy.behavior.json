@@ -190,7 +190,30 @@
 					"priority": 5,
 					"interval": 100,
 					"random_stop_interval": 2000
-					}
+					},
+				"minecraft:behavior.nearest_attackable_target": {
+					"priority": 5,
+					"reselect_targets": true,
+					"within_radius": 16,
+					"entity_types": [
+						{
+							"filters": {
+								"test": "is_family",
+								"subject": "other",
+								"value": "cod"
+							},
+							"max_dist": 12
+						},
+						{
+							"filters": {
+								"test": "is_family",
+								"subject": "other",
+								"value": "salmon"
+							},
+							"max_dist": 12
+						}
+					]
+				}
 			},
 			"minecraft:cat_gift_for_owner": {
 				"minecraft:behavior.drop_item_for": {
@@ -244,7 +267,7 @@
 		},
 		"components": {
 			"minecraft:attack_damage": {
-				"value": 1
+				"value": 2
 			},
 			"minecraft:nameable": {
 				"allow_name_tag_renaming": true
@@ -357,8 +380,9 @@
 				"all_items": true,
 				"all_items_max_amount": 1,
 				"items": [
-					 { "item": "minecraft:fish", "priority": 0, "max_amount": 1 },
-					  { "item": "minecraft:salmon", "priority": 0, "max_amount": 1 }
+					{ "item": "minecraft:fish", "priority": 0, "max_amount": 1 },
+					{ "item": "minecraft:salmon", "priority": 0, "max_amount": 1 },
+					{ "item": "minecraft:string", "priority": 0, "max_amount": 1}
 				]
 			},
 			"minecraft:behavior.pickup_items": {
