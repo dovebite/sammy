@@ -380,9 +380,9 @@
 				"all_items": true,
 				"all_items_max_amount": 1,
 				"items": [
-					{ "item": "minecraft:fish", "priority": 0, "max_amount": 1 },
-					{ "item": "minecraft:salmon", "priority": 0, "max_amount": 1 },
-					{ "item": "minecraft:string", "priority": 0, "max_amount": 1}
+					{ "item": "minecraft:fish", "priority": 1, "max_amount": 1 },
+					{ "item": "minecraft:salmon", "priority": 1, "max_amount": 1 },
+					{ "item": "minecraft:string", "priority": 2, "max_amount": 1}
 				]
 			},
 			"minecraft:behavior.pickup_items": {
@@ -392,6 +392,10 @@
 					"speed_multiplier": 0.5,
 					"can_pickup_any_item": true,
 					"can_pickup_to_hand_or_equipment": true
+			},
+			"minecraft:behavior.eat_carried_item": {
+				"priority": 12,
+				"delay_before_eating": 28
 			},
 			"minecraft:conditional_bandwidth_optimization": {}
 		},
