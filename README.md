@@ -7,11 +7,11 @@
 ```          
 <b>I made my cat sammy in minecraft <3</b>
 
-Yes, he is an all black cat and this model already exists, but i gave him retractble claws because he likes to claw things. I gave him extra puffy cheeks because he is a big boy.
+Yes, he is an all black cat and this model already exists, but i gave him retractable claws because he likes to claw things. I gave him extra puffy cheeks because he is a big boy.
 
 ![sammy idle animation](https://github.com/dovebite/sammy/blob/main/sammyidle.gif "sammy idle animation")
 
-Sammy can be crafted with some expensive items, some items that are hard to obtain and some ritualistic items. The slime ball holds him together. I made him unkillable, because in a just world, our sweet innocent pets will live forever. Bec ause he is undying, you will need to sacrifice a totem of undying to create this immortal kitty. Upon crafting, you get a Sammy egg, which you can use to summon Sammy from the ether! Once summoned, he is technically "wild" so you will need to tame him with some fish. The Sammy egg is consumed.
+Sammy can be crafted with some expensive items, some items that are hard to obtain and some ritualistic items. The slime ball holds him together. I made him unkillable, because in a just world, our sweet innocent pets will live forever. Because he is undying, you will need to sacrifice a totem of undying to create this immortal kitty. Upon crafting, you get a Sammy egg, which you can use to summon Sammy from the ether! Once summoned, he is technically "wild" so you will need to tame him with some fish. The Sammy egg is consumed.
 
 ![sammy egg recipe](https://github.com/dovebite/sammy/blob/main/recipe.png "sammy egg recipe")
 

@@ -768,7 +768,7 @@
 			}
 		},
 		"animation.sammy.hiss": {
-			"loop": true,
+			"animation_length": 69.1667,
 			"bones": {
 				"eyeL": {
 					"rotation": [0, 0, 17.5],
@@ -806,6 +806,12 @@
 				"bone": {
 					"position": [0, 2, 0],
 					"scale": [1, 1.2, 1]
+				}
+			},
+			"particle_effects": {
+				"0.0": {
+					"effect": "sammyfur",
+					"locator": "particles"
 				}
 			}
 		},
