@@ -23,4 +23,5 @@ Sammy can be crafted with some expensive items, some items that are hard to obta
 - Custom idle animation!
 
 Angry fur puff is a particle effect:
+
 ![sammy hiss particle effect](https://github.com/dovebite/sammy/blob/main/sammyhiss.gif "sammy hiss particle effect")
