@@ -21,3 +21,6 @@ Sammy can be crafted with some expensive items, some items that are hard to obta
 - Randomly loafs around.
 - Gets upset when wet!
 - Custom idle animation!
+
+![sammy hiss particle effect](https://github.com/dovebite/sammy/blob/main/samyhiss.png "sammy hiss particle effect")
+Angry fur particle effect!
