@@ -5,7 +5,7 @@
     `-.-' \ )-`( , o o)
           `-    \`_`"'-
 ```          
-I made my cat sammy in minecraft <3
+<b>I made my cat sammy in minecraft <3</b>
 
 Yes, he is an all black cat and this model already exists, but i gave him retractble claws because he likes to claw things. I gave him extra puffy cheeks because he is a big boy.
 
@@ -13,9 +13,9 @@ Sammy can be crafted with some expensive items, some items that are hard to obta
 
 ![sammy egg recipe](https://github.com/dovebite/sammy/blob/main/recipe.png "sammy egg recipe")
 
-For the most part, Sammy behaves as a normal Minecraft cat should with a few improvements:
-    - Fetches dropped items and will hold them in his mouth. He will relinquish the item for a price, something very precious to him. FIsh and string! :D
-    - Catches and kills fish! He will hold him in his mouth for a while and eventually eat them.
-    - Randomly loafs around.
-    - Gets upset when wet!
-    - Custom idle animation!
+<b>For the most part, Sammy behaves as a normal Minecraft cat should with a few improvements:</b>
+- Fetches dropped items and will hold them in his mouth. He will relinquish the item for a price, something very precious to him. FIsh and string! :D
+- Catches and kills fish! He will hold him in his mouth for a while and eventually eat them.
+- Randomly loafs around.
+- Gets upset when wet!
+- Custom idle animation!
