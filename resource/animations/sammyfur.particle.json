@@ -5,7 +5,7 @@
 			"identifier": "dove:sammyfur",
 			"basic_render_parameters": {
 				"material": "particles_alpha",
-				"texture": "textures/particle/furfly.png"
+				"texture": "furfly.png"
 			}
 		},
 		"components": {
